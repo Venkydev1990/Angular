@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "name": "venkatesh",
+      "age": "31",
+      "email": "abc@gmail.com",
+      "mobile": 9876543120,
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "name": "Bhargav",
+      "age": "25",
+      "email": "bhargav@gmail.com",
+      "mobile": 97654321,
+      "password": "12345",
+      "id": 2
+    }
+  ]
+}

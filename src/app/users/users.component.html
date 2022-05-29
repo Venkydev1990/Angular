@@ -1,0 +1,27 @@
+<nav class="navbar navbar-light bg-primary">
+    <div class="container-fluid">
+        <h1 style="color: aliceblue;">Registerd Users</h1>
+        <button routerLink="/login" class="btn btn-danger">Logout</button>
+    </div>
+</nav>
+
+<table class="table mt-3">
+    <thead>
+        <tr>
+            <td scope="col">Id</td>
+            <td scope="col">Name</td>
+            <td scope="col">Age</td>
+            <td scope="col">Email</td>
+            <td scope="col">Mobile</td>
+         </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let row of userData">
+           <td>{{row.id}}</td>
+           <td>{{row.name}}</td>
+           <td>{{row.age}}</td>
+           <td>{{row.email}}</td>
+           <td>{{row.mobile}}</td>
+        </tr>
+    </tbody>
+</table>
